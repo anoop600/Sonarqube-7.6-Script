@@ -1,4 +1,5 @@
    sudo apt update && sudo apt upgrade -y && sudo apt install mysql-server -y && sudo apt install default-jdk -y
+   cd /opt
    sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.6.zip
    sudo adduser --system --no-create-home --group --disabled-login sonarqube
    sudo apt install unzip
